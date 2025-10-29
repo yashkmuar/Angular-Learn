@@ -6,9 +6,10 @@ import { Profile } from "./profile/profile";
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [Login, Signup, Profile],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
   protected readonly title = 'Yash, Learning Angular!';
