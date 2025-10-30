@@ -15,4 +15,7 @@ export class App {
   protected readonly title = 'Yash, Learning Angular!';
   protected readonly what_to_become = 'A best Programmer';
 
+  Handle_Click_Event(){
+    alert("Button Clicked!!");
+  }
 }
