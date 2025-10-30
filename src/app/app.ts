@@ -17,5 +17,10 @@ export class App {
 
   Handle_Click_Event(){
     alert("Button Clicked!!");
+    this.otherfunction();
+  }
+
+  otherfunction(){
+    console.log("Other Function Called");
   }
 }
